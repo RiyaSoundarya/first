@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Spicy Hut - Restaurant in Chennai</title>
+</head>
+<body>
+    <div class="landing">
+        <header>
+            <a href="index.html" id="logo"><i class="fa-solid fa-bowl-rice"></i>Spicy Hut</a>
+            <nav>
+                <a href="#menuheading"><i class="fa-solid fa-bars"></i>Menu</a>
+                <a href="#location"><i class="fa-solid fa-location-dot"></i>Location</a>
+            </nav>
+        </header>
+    <div class="maintext">
+        <div class="tagline1">
+            Finest Treat for Your Buds
+        </div>
+        <div class="tagline2">
+            Freshest Ingredients Guranted
+        </div>
+        <div class="callus">
+           Call Us @+91 248935921
+        </div>
+        <button>Order Online</button>
+    </div>
+</div>
+    <h2 id="menuheading">Menu</h2>
+    <div class="menu">
+        <div class="starters">
+        <table>
+            <th colspan="2">Starters</th>
+            <tr>
+                <td>Paneer Tikka</td>
+                <td>&#8377 180</td>
+            </tr>
+            <tr>
+                <td>Gobi 65</td>
+                <td>&#8377 165</td>
+            </tr>
+            <tr>
+                <td>Veg Pakoda</td>
+                <td>&#8377 160</td>
+            </tr>
+            <tr>
+                <td>Chilli Gobi</td>
+                <td>&#8377 170</td>
+            </tr>
+            <tr>
+                <td>Mirchi Bajji</td>
+                <td>&#8377 160</td>
+            </tr>
+            <tr>
+                <td>Chilli Panner</td>
+                <td>&#8377 190</td>
+            </tr>
+             </table>
+    </div>
+    <div class="maincou">
+        <table>
+            <th colspan="2">Main Course</th>
+            <tr>
+                <td>Veg Biriyani</td>
+                <td>&#8377 280</td>
+            </tr>
+            <tr>
+                <td>Paneer Biriyani</td>
+                <td>&#8377 390</td>
+            </tr>
+            <tr>
+                <td>Mushroom Biriyani</td>
+                <td>&#8377 350</td>
+            </tr>
+            <tr>
+                <td>Veg Noodles</td>
+                <td>&#8377 300</td>
+            </tr>
+            <tr>
+                <td>Schezwan Noodles</td>
+                <td>&#8377 365</td>
+            </tr>
+            <tr>
+                <td>Cured Rice</td>
+                <td>&#8377 150</td>
+            </tr>
+            <tr>
+                <td>Samber Rice</td>
+                <td>&#8377 250</td>
+            </tr>
+            </table>
+    </div>
+    <div class="chat">
+        <table>
+            <th colspan="2">Chats</th>
+            <tr>
+                <td>Pani Puri</td>
+                <td>&#8377 180</td>
+            </tr>
+            <tr>
+                <td>Vada pav</td>
+                <td>&#8377 175</td>
+            </tr>
+            <tr>
+                <td>Bhel Puri</td>
+                <td>&#8377 185</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>&#8377 100</td>
+            </tr>
+            <tr>
+                <td>Masala Puri</td>
+                <td>&#8377 180</td>
+            </tr>
+            <tr>
+                <td>Raj Kachori</td>
+                <td>&#8377 200</td>
+            </tr>
+        </table>
+    </div>
+</div>
+    <h2 id="location">Locations</h2>
+    <div class="location">
+    <div class="annanager">
+        <h2>Anna Nagar</h2>
+        <address>
+            15, 10th Main Road</br>
+            Anna Nagar,</br>
+            Chennai - 600102
+        </address>
+    </div>
+    <div class="velachery">
+        <h2>Velachery</h2>
+        <address>
+            7, 3rd Cross Road</br>
+            Velachery,</br>
+            Chennai - 600190
+        </address></div>
+        <div class="tambaram">
+            <h2>Tambaram</h2>
+            <address>
+               145, MIT Road</br>
+                Tambaram,</br>
+                Chennai - 600006
+            </address></div>
+
+</div>
+<footer>
+    <div id="copyright">&#169 copyright Spicy Hut</div>
+</footer>
+</body>
+</html>
