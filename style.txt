@@ -1,0 +1,126 @@
+
+
+boby,h2{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url('../media/spicyFoods.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: whitesmoke;}
+
+header a{
+    text-decoration: none;
+    color:yellow;
+}
+
+header{
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 1.25em;
+}
+nav{
+    flex:2;
+    display:flex;
+}
+nav a {
+    flex:1;
+}
+nav a:hover{
+    color: green;
+}
+header a i,nav a i{
+    margin-right: .5em;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 55vh;
+    justify-content: center;
+    padding: 2em;
+
+}
+.tagline1{
+    color: red;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: yellow
+    
+}
+.maintext div{
+    margin-top: .75em;
+}
+.maintext button{
+    width: 20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color: green;
+  color:white;
+  border: 1px solid green;  
+}
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    background-image: linear-gradient(to right, rgb(100, 100, 100), rgb(32, 31, 29));
+    color: whitesmoke;
+} 
+#menuheading,#location{
+    background-image: linear-gradient(to right, rgb(100, 100, 100), rgb(32, 31, 29));
+font-size: 2.5em;
+color: red;
+display: flex;
+justify-content: center;
+}
+.menu th{
+  color: rgb(9, 156, 9);
+  font-size: 1.8em;  
+
+}
+table{
+    width: 100%;
+    padding:1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top:.8em;
+}
+.menu td:nth-child(1){
+    flex:1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincou{
+    grid-row: span 2;
+}
+.location{
+    background-image: linear-gradient(to right, rgb(100, 100, 100), rgb(32, 31, 29));
+    color: white;
+    display: flex;
+
+}
+ 
+.location h2{
+    color:green;
+    margin-bottom: .8em;
+}
+.location div{
+    float: 1;
+    padding: 1em;
+    min-width: 160px;
+}
+footer{
+    background-color:rgb(57, 49, 49);
+    color: white;
+    padding: .25em 1em;
+}
